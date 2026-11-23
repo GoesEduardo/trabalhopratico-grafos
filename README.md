@@ -164,6 +164,4 @@ Os arquivos principais são `resultados/resultados_propriedades.json`, `resultad
 python parte3/13_modelos_classicos.py
 ```
 
-O script adicional salva `resultados/comparacao_modelos_classicos.csv` e `.json`. Por ser uma **questão extra**, não faz parte do executor principal dos requisitos obrigatórios.
-
 
