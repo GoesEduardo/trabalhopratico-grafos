@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "dataset": "p2p-Gnutella05",
+    "seed": 217125521,
+    "data": "2002-08-05"
+  },
+  "small_world": {
+    "C_real": 0.007201065671103098,
+    "L_real": 4.596408883463596,
+    "C_ER_media": 0.0008101035100740756,
+    "C_ER_dp": 0.00013873690425644268,
+    "L_ER_media_estimativa": 4.828534316269722,
+    "L_ER_dp": 0.02145043972898346,
+    "C_relativo": 8.8890685962398,
+    "L_relativo": 0.9519263160201678,
+    "sigma": 9.33797968040572,
+    "n_replicas_ER": 10,
+    "origens_por_rede_ER": 64,
+    "comparabilidade": "mesmos n,m; C exato; L_Gnutella exato na maior CC; L_ER estimado por BFS na maior CC"
+  },
+  "lei_potencia": {
+    "xmin_selecionado": 11,
+    "expoente_mle": 4.645527100069011,
+    "n_caudal": 3037,
+    "fracao_caudal": 0.34331901424372596,
+    "KS_minimo": 0.035114953091709145,
+    "inclinacao_CCDF_loglog": -2.47523118614702,
+    "R2_CCDF_loglog": 0.8718030804886433,
+    "AIC_powerlaw_condicional": 14216.596547601905,
+    "AIC_geometrica_condicional": 14788.859579309463,
+    "delta_AIC_geometrica_menos_powerlaw": 572.2630317075582,
+    "ressalva": "selecao xmin exploratoria; sem GOF bootstrap, sem prova de lei de potencia"
+  },
+  "robustez": {
+    "r_removidos": 443,
+    "fracao_removida_efetiva": 0.05007913181098802,
+    "n_ensaios": 30,
+    "origens_por_ensaio_distancia": 40,
+    "metricas": {
+      "fracao_gigante_remanescente": {
+        "media": 0.9869411718037209,
+        "dp": 0.0016130332190425578,
+        "min": 0.982268237534214,
+        "max": 0.9900035701535166,
+        "ataque": 0.9553730810424849,
+        "original": 0.9995478182229256
+      },
+      "componentes": {
+        "media": 107.53333333333333,
+        "dp": 13.492611856591877,
+        "min": 83,
+        "max": 148,
+        "ataque": 371,
+        "original": 3
+      },
+      "distancia_media_amostral_maior_comp": {
+        "media": 4.6319412609990325,
+        "dp": 0.09756860641245464,
+        "min": 4.463607556735877,
+        "max": 4.911988409996378,
+        "ataque": 5.200856484365267,
+        "original": 4.596408883463596
+      },
+      "fracao_isolados_remanescentes": {
+        "media": 0.012305129120552184,
+        "dp": 0.0016195796061214721,
+        "min": 0.009163394025943116,
+        "max": 0.01725574199690587,
+        "ataque": 0.04343686778531477,
+        "original": 0.0
+      }
+    },
+    "ataque_por_grau": {
+      "fracao_gigante_remanescente": 0.9553730810424849,
+      "fracao_gigante_original": 0.9075288265882885,
+      "componentes": 371,
+      "distancia_media_amostral_maior_comp": 5.200856484365267,
+      "fracao_isolados_remanescentes": 0.04343686778531477,
+      "qtd_isolados": 365,
+      "tam_maior_comp": 8028
+    },
+    "baseline": {
+      "fracao_gigante_remanescente": 0.9995478182229256,
+      "componentes": 3,
+      "distancia_media_amostral_maior_comp": 4.596408883463596,
+      "fracao_isolados_remanescentes": 0.0
+    },
+    "observacao_distancias": "L apos remocao estimado em 40 origens aleatorias da maior componente por ensaio; aleatorios variam por semente; baseline exata",
+    "ranking": "grau total original, ordenacao unica decrescente, desempate por ID ascendente"
+  }
+}

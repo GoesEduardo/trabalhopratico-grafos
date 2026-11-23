@@ -1,0 +1,29 @@
+{
+  "nome": "p2p-Gnutella05",
+  "vertices": 8846,
+  "arestas_dirigidas": 31839,
+  "arestas_projecao": 31839,
+  "loops_encontrados": 0,
+  "duplicatas_lista_original": 0,
+  "arestas_reciprocas_lista_original": 0,
+  "grau_min": 1,
+  "grau_max": 88,
+  "grau_medio": 7.198507800135655,
+  "grau_mediano": 5.0,
+  "densidade": 0.0008138505144302605,
+  "numero_componentes": 3,
+  "tamanhos_componentes": [
+    8842,
+    2,
+    2
+  ],
+  "maior_componente_arestas": 31837,
+  "diametro_maior_componente": 9,
+  "raio_maior_componente": 6,
+  "caminho_medio_maior_componente": 4.596408883463596,
+  "coeficiente_clusterizacao_medio": 0.007201065671103054,
+  "triangulos": 1112,
+  "visualizacao_vertice_central": 842,
+  "visualizacao_vertices": 89,
+  "visualizacao_arestas": 93
+}
