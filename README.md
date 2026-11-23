@@ -1,10 +1,5 @@
 # G56 — Análise de grafos: rede Gnutella05
 
-**Estudante:** Eduardo dos Santos Góes  
-**Matrícula:** 217125521  
-**Instituição:** Universidade Federal da Bahia (UFBA)  
-**Dataset:** [Stanford SNAP — p2p-Gnutella05](https://snap.stanford.edu/data/p2p-Gnutella05.html)
-
 Este repositório contém os **códigos e scripts utilizados no trabalho**, o **dataset original e suas versões tratadas** e as instruções para **reproduzir os experimentos das Partes I, II e III**. O artigo em LaTeX e o relatório PDF são mantidos fora deste repositório, pois são entregues separadamente.
 
 ## Como reproduzir o trabalho (comandos principais)
