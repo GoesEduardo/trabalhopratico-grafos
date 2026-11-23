@@ -150,7 +150,7 @@ Não é necessário após o benchmark atualizado: o gráfico já é gerado autom
 
 Esse comando executa todas as **análises computacionais obrigatórias da Parte III**:
 
-1. **Rede de pequeno mundo (Small-World):** compara coeficiente de clusterização e comprimento médio dos caminhos com dez grafos aleatórios de mesmo número de vértices e arestas.
+1. **Small-World:** compara coeficiente de clusterização e comprimento médio dos caminhos com dez grafos aleatórios de mesmo número de vértices e arestas.
 2. **Lei de potência:** ajusta exploratoriamente a cauda da distribuição de graus e gera uma figura em escala log-log.
 3. **Robustez:** remove 5% dos vértices em 30 ensaios aleatórios e uma remoção direcionada por grau, comparando tamanho da maior componente, número de componentes, distâncias e vértices isolados.
 
@@ -158,7 +158,7 @@ Os arquivos principais são `resultados/resultados_propriedades.json`, `resultad
 
 **Ressalvas metodológicas:** as distâncias das referências aleatórias e dos experimentos de robustez são estimadas por amostragem; o ajuste exploratório de lei de potência não demonstra aderência estatística definitiva. A interpretação, a descoberta principal e a discussão das limitações são redigidas no artigo.
 
-**Questão extra, opcional:** a comparação com Erdős–Rényi, Barabási–Albert e Watts–Strogatz é executada separadamente:
+**Questão extra:** a comparação com Erdős–Rényi, Barabási–Albert e Watts–Strogatz é executada separadamente:
 
 ```bash
 python parte3/13_modelos_classicos.py
@@ -166,6 +166,4 @@ python parte3/13_modelos_classicos.py
 
 O script adicional salva `resultados/comparacao_modelos_classicos.csv` e `.json`. Por ser uma **questão extra**, não faz parte do executor principal dos requisitos obrigatórios.
 
-## Publicação e entrega
 
-O repositório contém somente os códigos, os dados e as instruções necessários à reprodução. O PDF científico deve ser enviado separadamente pelo Moodle, como **`217125521.pdf`**, incluindo no próprio artigo o link público deste repositório.
